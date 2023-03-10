@@ -6,11 +6,15 @@
   background-color: #252629;
   height: 100vh;
 }
+.logo {
+  margin: 20px 0;
+}
 .item {
   display: flex;
   width: 30px;
   height: 30px;
   margin-bottom: 25px;
+  cursor: pointer;
 }
 
 .burger {
@@ -20,4 +24,9 @@
 
 .music {
   margin-top: 20px;
+}
+
+.actions,
+.info {
+  margin-top: 50px;
 }

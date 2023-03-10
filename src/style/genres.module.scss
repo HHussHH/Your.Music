@@ -1,0 +1,48 @@
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.title {
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 1.5%;
+
+  cursor: pointer;
+}
+
+.genre {
+  display: flex;
+  align-items: center;
+
+  &_icon {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50px;
+    margin-right: 10px;
+    position: relative;
+  }
+
+  &_name {
+    font-size: 18px;
+    color: #c2c2c2;
+  }
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
